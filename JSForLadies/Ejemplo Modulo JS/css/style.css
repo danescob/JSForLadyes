@@ -1,0 +1,59 @@
+ body {
+ 		font-family: 'Lobster', cursive;
+    position: relative; 
+  }
+  h1 {
+  	font-size: 50px;
+  }
+  #section1 {
+  	padding-top:50px;
+  	height:800px;
+  	color: #fff; 
+  	background-color: #1E88E5;
+  	position: relative;
+  }
+  #section2 {
+  	padding-top:50px;
+  	height:800px;color: #fff; 
+  	background-color: #673ab7;
+  	position: relative;
+  }
+  #section3 {
+  	padding-top:50px;
+  	height:800px;color: #fff; 
+  	background-color: #ff9800;
+  	position: relative;
+  }
+  #section4 {
+  	padding-top:50px;
+  	height:800px;color: #fff; 
+  	background-color: hsl(0, 60%, 50%);
+  	position: relative;
+  }
+  #img1 {
+  	display: none;
+  }
+
+  .container {
+  	position: relative;
+  	width: 100%;
+  }
+
+  .big-text{
+  	font-size: 100px;
+  }
+
+  .title-container{
+  	width: 800px;
+  	height: 300px;
+  	text-align: center;
+  }
+
+  .absolute-center {
+	  margin: auto;
+	  position: absolute;
+	  top: 0; 
+	  left: 0; 
+	  bottom: 0; 
+	  right: 0;
+	}
