@@ -2,3 +2,7 @@
 	margin: 10px;
 	display: block;
 }
+
+.invisible-ctn {
+	display: none;
+}
