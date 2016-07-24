@@ -1,0 +1,25 @@
+   #section3 {
+     color: #fff;
+   }
+
+   #section2 {
+     color: #fff;
+     font-size: 100px;
+   }
+
+   #section1 {
+     padding-top:50px;
+     background: url("colors.jpg");
+     background-repeat: repeat;
+     position: relative;
+     height: 1900px;
+   }
+
+.img-ctn {
+	margin: 10px;
+	display: block;
+}
+
+.invisible-ctn {
+	display: none;
+}
