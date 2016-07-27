@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Ejemplo Callbacks</title>
+    <title>Ejemplo Promises</title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
@@ -11,39 +11,60 @@
       <div class="row">
         <div class="col s8 offset-s2">
           <h1 id="section2" class="center-align">
-          <strong>GALLERY</strong>
+          <strong>Encuentra tu ruta</strong>
         </h1>
         <br>
-        <div class="file-field input-field">
-          <div class="btn">
-            <span>
-              <strong>
-                File
-              </strong>
-            </span>
-          <input type="file" class="form-control" id="load_btn" accept="image/*" multiple>
-        </div>
-        <div class="file-path-wrapper">
-          <p id="section3">
-            <input class="file-path validate" type="text">
-          </p>
-        </div>
-      </div>
-
-      <div id="container">
-        <div class="preloader-wrapper active invisible-ctn" id="pre_loader">
-          <div class="spinner-layer spinner-red-only">
-            <div class="circle-clipper left">
-              <div class="circle"></div>
+        <div class="row">
+          <form class="col s12">
+            <div class="row">
+              <div class="input-field text-field col s6">
+                <input placeholder="Ruta" id="route" type="text" class="validate">
+                <label for="route">
+                  <span>
+                    <strong>
+                      ¿Qué ruta estas buscando?
+                    </strong>
+                  </span>
+                </label>
+              </div>
             </div>
-            <div class="gap-patch">
-              <div class="circle"></div>
+         </form>
+          <form class="col s12">
+            <div class="row">
+              <div class="input-field col s6">
+                <input placeholder="Destino" id="destination" type="text" class="validate">
+                <label for="destination">
+                  <span>
+                    <strong>
+                      ¿Hacia donde te diriges?
+                    </strong>
+                  </span>
+                </label>
+              </div>
             </div>
-            <div class="circle-clipper right">
-              <div class="circle"></div>
+         </form>
+          <form class="col s12">
+            <div class="row">
+              <div class="input-field col s6">
+                <input placeholder="Placeholder" id="time" type="text" class="validate">
+                <label for="time">
+                  <span>
+                    <strong>
+                      ¿Qué horario buscas?
+                    </strong>
+                  </span>
+                </label>
+              </div>
             </div>
-          </div>
+         </form>
         </div>
+        <a class="btn">
+          <span>
+            <strong>
+              Buscar
+            </strong>
+          </span>
+        </a>
       </div>
     </div>
 
