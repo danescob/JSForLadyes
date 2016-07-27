@@ -1,51 +1,79 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Ejemplo Callbacks</title>
+    <title>Ejemplo Promises</title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
   </head>
   <body>
     <div id="section1" >
+      <img class="materialboxed" width="650" src="css/colors.jpg" id="backimage">
       <div class="row">
         <div class="col s8 offset-s2">
           <h1 id="section2" class="center-align">
-          <strong>GALLERY</strong>
+          <strong>Encuentra tu ruta</strong>
         </h1>
         <br>
-        <div class="file-field input-field">
-          <div class="btn">
-            <span>
-              <strong>
-                File
-              </strong>
-            </span>
-          <input type="file" class="form-control" id="load_btn" accept="image/*" multiple>
+        <div class="row">
+          <form class="col s12">
+            <div class="row">
+              <div class="input-field text-field col s6">
+                <input placeholder="Ruta" id="placeholder" type="text" class="validate">
+                <label for="route" id="label">
+                  <span>
+                  <br>
+                  <br>
+                    <strong>
+                      ¿Qué ruta estas buscando?
+                    </strong>
+                  </span>
+                </label>
+              </div>
+            </div>
+         </form>
+          <form class="col s12">
+            <div class="row">
+              <div class="input-field col s6">
+                <input placeholder="Destino" id="destination" type="text" class="validate">
+                <label for="destination" id="label">
+                  <span>
+                  <br>
+                  <br>
+                    <strong>
+                      ¿Cual es tu destino?
+                    </strong>
+                  </span>
+                </label>
+              </div>
+            </div>
+         </form>
+          <form class="col s12">
+            <div class="row">
+              <div class="input-field col s6">
+                <input placeholder="Horario" id="time" type="text" class="validate">
+                <label for="time" id="label">
+                  <span>
+                  <br>
+                  <br>
+                    <strong>
+                      ¿Qué horario buscas?
+                    </strong>
+                  </span>
+                </label>
+              </div>
+            </div>
+         </form>
         </div>
-        <div class="file-path-wrapper">
-          <p id="section3">
-            <input class="file-path validate" type="text">
-          </p>
-        </div>
+        <a class="btn" id="buscarutas">
+          <span>
+            <strong>
+              Buscar
+            </strong>
+          </span>
+        </a>
       </div>
 
-      <div id="container">
-        <div class="preloader-wrapper active invisible-ctn" id="pre_loader">
-          <div class="spinner-layer spinner-red-only">
-            <div class="circle-clipper left">
-              <div class="circle"></div>
-            </div>
-            <div class="gap-patch">
-              <div class="circle"></div>
-            </div>
-            <div class="circle-clipper right">
-              <div class="circle"></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
