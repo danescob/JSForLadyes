@@ -5,7 +5,7 @@ App.Events = (function(app){
 			$('#pre_loader').show();
 			setTimeout(function() {
 				app.Load.loadImages();
-			}, 1000);
+			}, 3000);
 		});
 	});
 
