@@ -1,0 +1,45 @@
+   #section3 {
+     color: #fff;
+   }
+
+   #label {
+     font-size: 12px;
+   }
+
+   #section2 {
+     color: #963e96;
+     font-size: 100px;
+   }
+
+   #imageback {
+     padding-top:50px;
+     background: url("colors.jpg");
+     background-repeat: no-repeat;
+     position: relative;
+     height: 1900px;
+   }
+
+   #backimage {
+     padding-top:20px;
+     left: 25%;
+   }
+
+   #section1 {
+     padding-top:50px;
+     height: 1900px;
+   }
+
+.active {
+  color: #963e96;
+	margin: 10px;
+	display: block;
+}
+
+.img-ctn {
+	margin: 10px;
+	display: block;
+}
+
+.invisible-ctn {
+	display: none;
+}
